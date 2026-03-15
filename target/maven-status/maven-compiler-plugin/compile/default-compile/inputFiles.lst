@@ -1,0 +1,17 @@
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\service\SyncService.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\integration\dto\AccountingApiInvoiceDto.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\repository\PaymentRepository.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\integration\AccountingApiAdapter.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\integration\dto\AccountingApiPaymentDto.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\integration\dto\AccountingApiCustomerDto.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\service\InsightService.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\domain\RawIntegrationData.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\repository\RawIntegrationDataRepository.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\domain\Invoice.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\domain\Payment.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\repository\InvoiceRepository.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\api\InsightController.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\domain\Customer.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\TakaadaIntegrationApplication.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\api\SyncController.java
+C:\Softwares\code\takaada-integration-service\takaada\src\main\java\com\takaada\integration\repository\CustomerRepository.java
