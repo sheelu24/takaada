@@ -1,6 +1,6 @@
-# Takaada Integration Service
+# Accounting integration service
 
-Accounting integration service with analysis. This service integrates with an external accounting system (customers, invoices, payments), stores data locally in two forms—**raw** (source format for audit) and **normalized** (common schema for analysis)—and exposes APIs for financial insights such as outstanding balances and overdue invoices.
+This service integrates with an external accounting system (customers, invoices, payments), stores data locally in two forms—**raw** (source format for audit) and **normalized** (common schema for analysis)—and exposes APIs for financial insights such as outstanding balances and overdue invoices.
 
 - **On-demand sync**: Trigger sync via `POST /api/sync` (uses dummy data in code; comments indicate where the real API would be called).
 - **Insights**: Outstanding balance per customer, list of overdue invoices.
@@ -161,7 +161,7 @@ flowchart TB
   NormRepo --> NormTables
 ```
 
-### Ideal design (production-style)
+### Ideal design (real world design)
 
 Multiple sources (e.g. HDFC, Axis), scheduled sync, real HTTP APIs, auth, and observability. Same patterns: per-source adapters, raw + normalized storage, insight layer on normalized data only.
 
@@ -212,5 +212,3 @@ flowchart TB
   Scheduler --> SyncOrch
   SyncOrch --> Metrics
 ```
-
-The basic design reflects this assignment (one adapter, on-demand sync, dummy data, single process, H2). The ideal design extends the same ideas to multiple bank adapters, scheduled sync, real APIs, and clearer API/ops boundaries.
