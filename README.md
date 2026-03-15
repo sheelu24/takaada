@@ -70,30 +70,30 @@ High-level structure of the main classes and their relationships:
 ```mermaid
 classDiagram
   direction TB
-  subgraph api [API layer]
+  subgraph api: API layer
     SyncController
     InsightController
   end
-  subgraph service [Service layer]
+  subgraph service: Service layer
     SyncService
     InsightService
   end
-  subgraph integration [Integration layer]
+  subgraph integration: Integration layer
     AccountingApiAdapter
   end
-  subgraph domain [Domain]
+  subgraph domain: Domain
     Customer
     Invoice
     Payment
     RawIntegrationData
   end
-  subgraph repository [Repositories]
+  subgraph repository: Repositories
     CustomerRepository
     InvoiceRepository
     PaymentRepository
     RawIntegrationDataRepository
   end
-  subgraph dto [DTOs]
+  subgraph dto: DTOs
     AccountingApiCustomerDto
     AccountingApiInvoiceDto
     AccountingApiPaymentDto
